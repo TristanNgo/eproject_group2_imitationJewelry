@@ -1,0 +1,79 @@
+<div class="slideshow">
+  <div
+    id="slideindex"
+    class="carousel slide carousel-fade"
+    data-bs-ride="carousel"
+  >
+    <ol class="carousel-indicators">
+      <li
+        data-bs-target="#slideindex"
+        data-bs-slide-to="{{x.slide}}"
+        ng-class="{active:x.id==1}"
+        ng-repeat="x in slideshowList"
+      ></li>
+    </ol>
+    <!-- data-bs-interval="{{x.time}}" -->
+    <div class="carousel-inner">
+      <div
+        class="carousel-item SLIDEINDEX"
+        ng-class="{active:x.id==1}"
+        ng-repeat="x in slideshowList"
+      >
+        <div
+          class="SLIDEIMAGE"
+          style="background-image:url(image{{x.img_path}});"
+        ></div>
+        <div class="container SLIDECONTENT">
+          <h1>{{x.banner}}</h1>
+          <p>{{x.desc}}</p>
+          <p>{{x.infor}}</p>
+          <a href="#!/television" class="btn btn-lg btn-primary">Shop Now</a>
+        </div>
+      </div>
+    </div>
+    <a
+      href="#slideindex"
+      class="carousel-control-prev"
+      role="button"
+      data-bs-slide="prev"
+    >
+      <span class="sr-only">Previous</span>
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </a>
+    <a
+      href="#slideindex"
+      class="carousel-control-next"
+      role="button"
+      data-bs-slide="next"
+    >
+      <span class="sr-only">Next</span>
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </a>
+  </div>
+</div>
+
+<div class="container row BESTSALE">
+  <h1>
+    <i class="fas fa-shopping-cart"></i>&nbsp&nbsp&nbspbest sale of the week
+  </h1>
+  <a
+    href="#!/product/{{x.id}}"
+    ng-repeat="x in bestsaleList"
+    class="col-sm-4 img-thumbnail OVERVIEWPRODUCTS"
+  >
+    <div class="IMGPRODUCTNAME">
+      <img
+        class="container-fluid IMGPRODUCT"
+        ng-src="image/{{x.type}}{{x.img}}"
+      />
+      <h4>{{x.name}}</h4>
+    </div>
+    <br />
+    <ol class="DETAILSPRODUCT">
+      <li>{{x.details[0].d1}}</li>
+      <li>{{x.details[0].d2}}</li>
+      <li>{{x.details[0].d3}}</li>
+      <li>US{{x.price|currency:"$ ":0}}</li>
+    </ol>
+  </a>
+</div>

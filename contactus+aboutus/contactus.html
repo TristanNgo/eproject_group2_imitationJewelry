@@ -1,0 +1,68 @@
+<div class="CONTACTUS container row">
+  <h1>contact us</h1>
+  <div class="col-sm-3 mt-3">
+    <h4 class="text-center mb-6">how to find us?</h4>
+    <p><b>Company name:</b> {{contactinfo.name}}</p>
+    <p><b>Address:</b> {{contactinfo.address}}</p>
+    <p><b>Phone number:</b> {{contactinfo.number}}</p>
+    <p><b>Fax:</b> {{contactinfo.fax}}</p>
+    <p><b>Email:</b> {{contactinfo.email}}</p>
+  </div>
+
+  <form class="mt-3 col-sm-4" name="frm" onsubmit="checkform()">
+    <h4 class="text-center">tell us something</h4>
+
+    <label for="fullname" class="sr-only">Your full name</label>
+    <input
+      type="text"
+      class="form-control"
+      id="fullname"
+      autofocus
+      placeholder="Your name"
+    />
+
+    <label for="phonenumber" class="sr-only">Your phone number</label>
+    <input
+      type="tel"
+      class="form-control"
+      id="phonenumber"
+      placeholder="Your mobile phone"
+      minlength="9"
+      maxlength="10"
+    />
+
+    <label for="email" class="sr-only">Your email address</label>
+    <input
+      type="email"
+      class="form-control"
+      id="email"
+      placeholder="Your email address"
+    />
+
+    <label for="opinion" class="sr-only">Your opinion</label>
+    <textarea
+      rows="6"
+      id="opinion"
+      class="form-control"
+      placeholder="What do you want to tell us?"
+    ></textarea>
+
+    <input type="submit" class="btn btn-primary btn-block mb-3" value="Send" />
+    <input type="reset" class="btn btn-primary btn-block mb-3" value="Clear" />
+  </form>
+
+  <div class="col-sm-5 mt-3">
+    <h4 class="text-center">location map</h4>
+    <iframe
+      class="col-sm-12"
+      height="350px"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3848.8810402392232!2d73.95705941416007!3d15.274281864308119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfb3e8213b946f%3A0xe1aa65b28851d99e!2sImitation%20Jewellery!5e0!3m2!1svi!2s!4v1633945214814!5m2!1svi!2s"
+      width="600"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      allowfullsreen
+    ></iframe>
+  </div>
+</div>

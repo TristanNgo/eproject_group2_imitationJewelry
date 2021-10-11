@@ -1,0 +1,58 @@
+<div class="PRODUCTDETAILS">
+  <h2>{{selectedproductid.name}}</h2>
+  <p>{{selectedproductid.overview}}</p>
+  <div class="PRODUCT row" style="background-color: ghostwhite">
+    <div class="col-sm-1"></div>
+    <img
+      class="col-sm-5"
+      ng-src="image/{{selectedproductid.type}}{{selectedproductid.img}}"
+    />
+    <div class="col-sm-1"></div>
+    <div class="col-sm-5">
+      <h4>PRODUCT INFORMATION&nbsp;&nbsp;&nbsp;</h4>
+      <table>
+        <tr>
+          <th class="col-sm-6">Brand</th>
+          <td>{{selectedproductid.brand}}</td>
+        </tr>
+        <tr>
+          <th>Country of made</th>
+          <td>{{selectedproductid.madein}}</td>
+        </tr>
+        <tr>
+          <th rowspan="6">Details</th>
+          <td>{{selectedproductid.details[0].d1}}</td>
+        </tr>
+        <tr>
+          <td>{{selectedproductid.details[0].d2}}</td>
+        </tr>
+        <tr>
+          <td>{{selectedproductid.details[0].d3}}</td>
+        </tr>
+        <tr>
+          <td>{{selectedproductid.details[0].d4}}</td>
+        </tr>
+        <tr>
+          <td>{{selectedproductid.details[0].d5}}</td>
+        </tr>
+        <tr>
+          <td>{{selectedproductid.details[0].d6}}</td>
+        </tr>
+        <tr>
+          <th>Price</th>
+          <td>{{selectedproductid.price|currency:"$":0}}</td>
+        </tr>
+        <tr>
+          <th>Year of made</th>
+          <td>{{selectedproductid.date}}</td>
+        </tr>
+        <tr>
+          <th>Insurance</th>
+          <td>{{selectedproductid.insurance}}</td>
+        </tr>
+      </table>
+      <br />
+    </div>
+  </div>
+  <h3>{{selectedproductid.slogan}}</h3>
+</div>

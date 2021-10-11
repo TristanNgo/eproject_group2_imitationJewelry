@@ -1,0 +1,29 @@
+[
+  {
+    "banner": "NECKLACE",
+    "id": 1,
+    "desc": "exclusive offer -20% off this week",
+    "infor": "22 Carat gold necklace for wedding",
+    "img_path": "/slide1.png",
+    "slide": 0,
+    "time": 4000
+  },
+  {
+    "banner": "EARINGS AND PENDANT",
+    "id": 2,
+    "desc": "Complete bridal set with white pearls",
+    "infor": "22 Carat gold necklace for wedding",
+    "img_path": "/slide2.jpg",
+    "slide": 1,
+    "time": 4000
+  },
+  {
+    "banner": "WEDDING RINGS",
+    "id": 3,
+    "desc": "Ashirwaad Special wedding rings for couples",
+    "infor": "22 Carat gold necklace for wedding",
+    "img_path": "/slide3.jpg",
+    "slide": 2,
+    "time": 4000
+  }
+]

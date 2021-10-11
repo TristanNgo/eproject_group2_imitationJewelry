@@ -1,0 +1,505 @@
+[
+  {
+    "id": 1,
+    "type": "Original",
+    "name": "Original Necklace",
+    "brand": "Dazzling",
+    "madein": "Indonesia",
+    "img": "/Original1.PNG",
+    "overview": "Jewelry, objects of personal adornment prized for the craftsmanship going into their creation and generally for the value of their components as well.",
+    "slogan": "Follow your true passion, let your jewelry guide you",
+    "details": [
+      {
+        "d1": "gold",
+        "d2": "13.90417",
+        "d3": "7 x 7 ly",
+        "d4": "Necklace"
+      }
+    ],
+    "price": "1099",
+    "date": "2019",
+    "insurance": "24 months"
+  },
+  {
+    "id": 2,
+    "type": "Original",
+    "name": "Original Necklace",
+    "brand": "Dazzling",
+    "madein": "Thailand",
+    "img": "/Original2.PNG",
+    "overview": "Jewelry, objects of personal adornment prized for the craftsmanship going into their creation and generally for the value of their components as well.",
+    "slogan": "Follow your true passion, let your jewelry guide you",
+    "details": [
+      {
+        "d1": "gold",
+        "d2": "13.90417",
+        "d3": "7 x 7 ly",
+        "d4": "Necklace"
+      }
+    ],
+    "price": "1099",
+    "date": "2019",
+    "insurance": "24 months"
+  },
+  {
+    "id": 3,
+    "type": "Original",
+    "name": "Original Ring",
+    "brand": "Dazzling",
+    "madein": "Viet Nam",
+    "img": "/Original3.jpg",
+    "overview": "Jewelry, objects of personal adornment prized for the craftsmanship going into their creation and generally for the value of their components as well.",
+    "slogan": "Follow your true passion, let your jewelry guide you",
+    "details": [
+      {
+        "d1": "gold",
+        "d2": "13.90417",
+        "d3": "7 x 7 ly",
+        "d4": "Necklace"
+      }
+    ],
+    "price": "1099",
+    "date": "2019",
+    "insurance": "24 months"
+  },
+  {
+    "id": 4,
+    "type": "Original",
+    "name": "Ring Original",
+    "brand": "Sukkhi",
+    "madein": "Indonesia",
+    "img": "/Original4.PNG",
+    "overview": "Jewelry, objects of personal adornment prized for the craftsmanship going into their creation and generally for the value of their components as well.",
+    "slogan": "Follow your true passion, let your jewelry guide you",
+    "details": [
+      {
+        "d1": "gold",
+        "d2": "13.90417",
+        "d3": "7 x 7 ly",
+        "d4": "Necklace"
+      }
+    ],
+    "price": "1099",
+    "date": "2019",
+    "insurance": "24 months"
+  },
+  {
+    "id": 5,
+    "type": "Original",
+    "name": "Earings Original",
+    "brand": "Sukkhi",
+    "madein": "Viet Nam",
+    "img": "/Original5.jpg",
+    "overview": "Jewelry, objects of personal adornment prized for the craftsmanship going into their creation and generally for the value of their components as well.",
+    "slogan": "Follow your true passion, let your jewelry guide you",
+    "details": [
+      {
+        "d1": "gold",
+        "d2": "13.90417",
+        "d3": "7 x 7 ly",
+        "d4": "Necklace"
+      }
+    ],
+    "price": "1099",
+    "date": "2019",
+    "insurance": "24 months"
+  },
+  {
+    "id": 6,
+    "type": "Original",
+    "name": "Women Summer Collection Original",
+    "brand": "Sukkhi",
+    "madein": "Viet Nam",
+    "img": "/Original6.PNG",
+    "overview": "Jewelry, objects of personal adornment prized for the craftsmanship going into their creation and generally for the value of their components as well.",
+    "slogan": "Follow your true passion, let your jewelry guide you",
+    "details": [
+      {
+        "d1": "gold",
+        "d2": "13.90417",
+        "d3": "7 x 7 ly",
+        "d4": "Necklace"
+      }
+    ],
+    "price": "1099",
+    "date": "2019",
+    "insurance": "24 months"
+  },
+  {
+    "id": 7,
+    "type": "Original",
+    "name": "Necklace & Earings Original",
+    "brand": "Sannyra",
+    "madein": "Viet Nam",
+    "img": "/Original7.PNG",
+    "overview": "Jewelry, objects of personal adornment prized for the craftsmanship going into their creation and generally for the value of their components as well.",
+    "slogan": "Follow your true passion, let your jewelry guide you",
+    "details": [
+      {
+        "d1": "gold",
+        "d2": "13.90417",
+        "d3": "7 x 7 ly",
+        "d4": "Necklace"
+      }
+    ],
+    "price": "1099",
+    "date": "2019",
+    "insurance": "24 months"
+  },
+  {
+    "id": 8,
+    "type": "Original",
+    "name": "Original Necklace",
+    "brand": "Sannyra",
+    "madein": "Viet Nam",
+    "img": "/Original8.PNG",
+    "overview": "Jewelry, objects of personal adornment prized for the craftsmanship going into their creation and generally for the value of their components as well.",
+    "slogan": "Follow your true passion, let your jewelry guide you",
+    "details": [
+      {
+        "d1": "gold",
+        "d2": "13.90417",
+        "d3": "7 x 7 ly",
+        "d4": "Necklace"
+      }
+    ],
+    "price": "1099",
+    "date": "2019",
+    "insurance": "24 months"
+  },
+  {
+    "id": 9,
+    "type": "Semi-Precious",
+    "name": "Semi-Precious Necklace",
+    "brand": "Dazzling",
+    "madein": "Viet Nam",
+    "img": "/Semi-Precious1.PNG",
+    "overview": "Jewelry, objects of personal adornment prized for the craftsmanship going into their creation and generally for the value of their components as well.",
+    "slogan": "Follow your true passion, let your jewelry guide you",
+    "details": [
+      {
+        "d1": "gold",
+        "d2": "13.90417",
+        "d3": "7 x 7 ly",
+        "d4": "Necklace"
+      }
+    ],
+    "price": "1099",
+    "date": "2019",
+    "insurance": "24 months"
+  },
+  {
+    "id": 10,
+    "type": "Semi-Precious",
+    "name": "Semi-Precious Bracelet",
+    "brand": "Dazzling",
+    "img": "/Semi-Precious2.PNG",
+    "overview": "Jewelry, objects of personal adornment prized for the craftsmanship going into their creation and generally for the value of their components as well.",
+    "slogan": "Follow your true passion, let your jewelry guide you",
+    "details": [
+      {
+        "d1": "gold",
+        "d2": "13.90417",
+        "d3": "7 x 7 ly",
+        "d4": "Necklace"
+      }
+    ],
+    "price": "1099",
+    "date": "2019",
+    "insurance": "24 months"
+  },
+  {
+    "id": 11,
+    "type": "Semi-Precious",
+    "name": "Semi-Precious Bracelet",
+    "brand": "Sukkhi",
+    "madein": "Viet Nam",
+    "img": "/Semi-Precious3.PNG",
+    "overview": "Jewelry, objects of personal adornment prized for the craftsmanship going into their creation and generally for the value of their components as well.",
+    "slogan": "Follow your true passion, let your jewelry guide you",
+    "details": [
+      {
+        "d1": "gold",
+        "d2": "13.90417",
+        "d3": "7 x 7 ly",
+        "d4": "Necklace"
+      }
+    ],
+    "price": "1099",
+    "date": "2019",
+    "insurance": "24 months"
+  },
+  {
+    "id": 12,
+    "type": "Semi-Precious",
+    "name": "Semi-Precious Bracelet",
+    "brand": "Sukkhi",
+    "madein": "Viet Nam",
+    "img": "/Semi-Precious4.PNG",
+    "overview": "Jewelry, objects of personal adornment prized for the craftsmanship going into their creation and generally for the value of their components as well.",
+    "slogan": "Follow your true passion, let your jewelry guide you",
+    "details": [
+      {
+        "d1": "gold",
+        "d2": "13.90417",
+        "d3": "7 x 7 ly",
+        "d4": "Necklace"
+      }
+    ],
+    "price": "1099",
+    "date": "2019",
+    "insurance": "24 months"
+  },
+  {
+    "id": 13,
+    "type": "Semi-Precious",
+    "name": "Semi-Precious Necklace",
+    "brand": "Sukkhi",
+    "madein": "China",
+    "img": "/Semi-Precious5.jpg",
+    "overview": "Jewelry, objects of personal adornment prized for the craftsmanship going into their creation and generally for the value of their components as well.",
+    "slogan": "Follow your true passion, let your jewelry guide you",
+    "details": [
+      {
+        "d1": "gold",
+        "d2": "13.90417",
+        "d3": "7 x 7 ly",
+        "d4": "Necklace"
+      }
+    ],
+    "price": "1099",
+    "date": "2019",
+    "insurance": "24 months"
+  },
+  {
+    "id": 14,
+    "type": "Semi-Precious",
+    "name": "Semi-Precious Necklace",
+    "brand": "Sannyra",
+    "madein": "Thailand",
+    "img": "/Semi-Precious6.jpg",
+    "overview": "Jewelry, objects of personal adornment prized for the craftsmanship going into their creation and generally for the value of their components as well.",
+    "slogan": "Follow your true passion, let your jewelry guide you",
+    "details": [
+      {
+        "d1": "gold",
+        "d2": "13.90417",
+        "d3": "7 x 7 ly",
+        "d4": "Necklace"
+      }
+    ],
+    "price": "1099",
+    "date": "2019",
+    "insurance": "24 months"
+  },
+  {
+    "id": 15,
+    "type": "Semi-Precious",
+    "name": "Semi-Precious Necklace",
+    "brand": "Sannyra",
+    "madein": "Thailand",
+    "img": "/Semi-Precious7.jpg",
+    "overview": "Jewelry, objects of personal adornment prized for the craftsmanship going into their creation and generally for the value of their components as well.",
+    "slogan": "Follow your true passion, let your jewelry guide you",
+    "details": [
+      {
+        "d1": "gold",
+        "d2": "13.90417",
+        "d3": "7 x 7 ly",
+        "d4": "Necklace"
+      }
+    ],
+    "price": "1099",
+    "date": "2019",
+    "insurance": "24 months"
+  },
+  {
+    "id": 16,
+    "type": "Semi-Precious",
+    "name": "Semi-Precious Necklace",
+    "brand": "Sannyra",
+    "madein": "China",
+    "img": "/Semi-Precious8.jpg",
+    "overview": "Jewelry, objects of personal adornment prized for the craftsmanship going into their creation and generally for the value of their components as well.",
+    "slogan": "Follow your true passion, let your jewelry guide you",
+    "details": [
+      {
+        "d1": "gold",
+        "d2": "13.90417",
+        "d3": "7 x 7 ly",
+        "d4": "Necklace"
+      }
+    ],
+    "price": "1099",
+    "date": "2019",
+    "insurance": "24 months"
+  },
+  {
+    "id": 17,
+    "type": "Artificial",
+    "name": "Artificial Bracelet",
+    "brand": "Dazzling",
+    "madein": "Indonesia",
+    "img": "/Artificial1.PNG",
+    "overview": "Jewelry, objects of personal adornment prized for the craftsmanship going into their creation and generally for the value of their components as well.",
+    "slogan": "Follow your true passion, let your jewelry guide you",
+    "details": [
+      {
+        "d1": "gold",
+        "d2": "13.90417",
+        "d3": "7 x 7 ly",
+        "d4": "Necklace"
+      }
+    ],
+    "price": "1099",
+    "date": "2019",
+    "insurance": "24 months"
+  },
+  {
+    "id": 18,
+    "type": "Artificial",
+    "name": "Bracelet",
+    "brand": "Dazzling",
+    "madein": "Thailand",
+    "img": "/Artificial2.PNG",
+    "overview": "Jewelry, objects of personal adornment prized for the craftsmanship going into their creation and generally for the value of their components as well.",
+    "slogan": "Follow your true passion, let your jewelry guide you",
+    "details": [
+      {
+        "d1": "gold",
+        "d2": "13.90417",
+        "d3": "7 x 7 ly",
+        "d4": "Necklace"
+      }
+    ],
+    "price": "1099",
+    "date": "2019",
+    "insurance": "24 months"
+  },
+  {
+    "id": 19,
+    "type": "Artificial",
+    "name": "Bracelet",
+    "brand": "Dazzling",
+    "madein": "Viet Nam",
+    "img": "/Artificial3.PNG",
+    "overview": "Jewelry, objects of personal adornment prized for the craftsmanship going into their creation and generally for the value of their components as well.",
+    "slogan": "Follow your true passion, let your jewelry guide you",
+    "details": [
+      {
+        "d1": "gold",
+        "d2": "13.90417",
+        "d3": "7 x 7 ly",
+        "d4": "Necklace"
+      }
+    ],
+    "price": "1099",
+    "date": "2019",
+    "insurance": "24 months"
+  },
+  {
+    "id": 20,
+    "type": "Artificial",
+    "name": "Bracelet",
+    "brand": "Sukkhi",
+    "madein": "Viet Nam",
+    "img": "/Artificial4.PNG",
+    "overview": "Jewelry, objects of personal adornment prized for the craftsmanship going into their creation and generally for the value of their components as well.",
+    "slogan": "Follow your true passion, let your jewelry guide you",
+    "details": [
+      {
+        "d1": "gold",
+        "d2": "13.90417",
+        "d3": "7 x 7 ly",
+        "d4": "Necklace"
+      }
+    ],
+    "price": "1099",
+    "date": "2019",
+    "insurance": "24 months"
+  },
+  {
+    "id": 21,
+    "type": "Artificial",
+    "name": "Bracelet",
+    "brand": "Sukkhi",
+    "madein": "Viet Nam",
+    "img": "/Artificial5.jpg",
+    "overview": "Jewelry, objects of personal adornment prized for the craftsmanship going into their creation and generally for the value of their components as well.",
+    "slogan": "Follow your true passion, let your jewelry guide you",
+    "details": [
+      {
+        "d1": "gold",
+        "d2": "13.90417",
+        "d3": "7 x 7 ly",
+        "d4": "Necklace"
+      }
+    ],
+    "price": "1099",
+    "date": "2019",
+    "insurance": "24 months"
+  },
+  {
+    "id": 22,
+    "type": "Artificial",
+    "name": "Bracelet",
+    "brand": "Sannyra",
+    "madein": "Viet Nam",
+    "img": "/Artificial6.jpg",
+    "overview": "Jewelry, objects of personal adornment prized for the craftsmanship going into their creation and generally for the value of their components as well.",
+    "slogan": "Follow your true passion, let your jewelry guide you",
+    "details": [
+      {
+        "d1": "gold",
+        "d2": "13.90417",
+        "d3": "7 x 7 ly",
+        "d4": "Necklace"
+      }
+    ],
+    "price": "1099",
+    "date": "2019",
+    "insurance": "24 months"
+  },
+  {
+    "id": 23,
+    "type": "Artificial",
+    "name": "Bracelet",
+    "brand": "Sannyra",
+    "madein": "Viet Nam",
+    "img": "/Artificial7.jpg",
+    "overview": "Jewelry, objects of personal adornment prized for the craftsmanship going into their creation and generally for the value of their components as well.",
+    "slogan": "Follow your true passion, let your jewelry guide you",
+    "details": [
+      {
+        "d1": "gold",
+        "d2": "13.90417",
+        "d3": "7 x 7 ly",
+        "d4": "Necklace"
+      }
+    ],
+    "price": "1099",
+    "date": "2019",
+    "insurance": "24 months"
+  },
+  {
+    "id": 24,
+    "type": "Artificial",
+    "name": "Bracelet",
+    "brand": "Sannyra",
+    "madein": "Viet Nam",
+    "img": "/Artificial8.jpg",
+    "overview": "Jewelry, objects of personal adornment prized for the craftsmanship going into their creation and generally for the value of their components as well.",
+    "slogan": "Follow your true passion, let your jewelry guide you",
+    "details": [
+      {
+        "d1": "gold",
+        "d2": "13.90417",
+        "d3": "7 x 7 ly",
+        "d4": "Necklace"
+      }
+    ],
+    "price": "1099",
+    "date": "2019",
+    "insurance": "24 months"
+  }
+]

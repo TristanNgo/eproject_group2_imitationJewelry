@@ -1,0 +1,107 @@
+<div class="container row COMPARE">
+    <h1>compare</h1>
+    
+    <div class="col-sm-6">
+        <select class="form-select" ng-model="firstproduct" ng-options="x as x.name for x in productslist">
+            <option value="">---Choose the first product to compare---</option>
+        </select>
+        <div class="COMPAREPRODUCT" ng-show="firstproduct">
+            <div>
+                <img class="img-thumbnail container-fluid"  ng-src="image/{{firstproduct.type}}{{firstproduct.img}}">
+            </div>
+                <table>
+                <tr>
+                    <th class="col-sm-6">Brand</th>
+                    <td>{{firstproduct.brand}}</td>
+                </tr>
+                <tr>
+                    <th>Country of made</th>
+                    <td>{{firstproduct.madein}}</td>
+                </tr>
+                <tr>
+                    <th>Price</th>
+                    <td>{{firstproduct.price|currency:"$":0}}</td>
+                </tr>
+                <tr>
+                    <th>Year of made</th>
+                    <td>{{firstproduct.date}}</td>
+                </tr>
+                <tr>
+                    <th>Insurance</th>
+                    <td>{{firstproduct.insurance}}</td>
+                </tr>
+                <tr>
+                    <th rowspan="6">Details</th>
+                    <td>{{firstproduct.details[0].d1}}</td>
+                </tr>
+                <tr>
+                    <td>{{firstproduct.details[0].d2}}</td>
+                </tr>
+                <tr>
+                    <td>{{firstproduct.details[0].d3}}</td>
+                </tr>
+                <tr>
+                    <td>{{firstproduct.details[0].d4}}</td>
+                </tr>
+                <tr>
+                    <td>{{firstproduct.details[0].d5}}</td>
+                </tr>
+                <tr>
+                    <td>{{firstproduct.details[0].d6}}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="col-sm-6">
+        <select class="form-select" ng-model="secondproduct" ng-options="x as x.name for x in productslist">
+            <option value="">---Choose the second product to compare---</option>
+        </select>
+        <div class="COMPAREPRODUCT" ng-show="secondproduct">
+            <div>
+                <img class="img-thumbnail container-fluid" ng-src="image/{{secondproduct.type}}{{secondproduct.img}}">
+            </div>
+                <table>
+                <tr>
+                    <th class="col-sm-6">Brand</th>
+                    <td>{{secondproduct.brand}}</td>
+                </tr>
+                <tr>
+                    <th>Country of made</th>
+                    <td>{{secondproduct.madein}}</td>
+                </tr>
+                <tr>
+                    <th>Price</th>
+                    <td>{{secondproduct.price|currency:"$":0}}</td>
+                </tr>
+                <tr>
+                    <th>Year of made</th>
+                    <td>{{secondproduct.date}}</td>
+                </tr>
+                <tr>
+                    <th>Insurance</th>
+                    <td>{{secondproduct.insurance}}</td>
+                </tr>
+                <tr>
+                    <th rowspan="6">Details</th>
+                    <td>{{secondproduct.details[0].d1}}</td>
+                </tr>
+                <tr>
+                    <td>{{secondproduct.details[0].d2}}</td>
+                </tr>
+                <tr>
+                    <td>{{secondproduct.details[0].d3}}</td>
+                </tr>
+                <tr>
+                    <td>{{secondproduct.details[0].d4}}</td>
+                </tr>
+                <tr>
+                    <td>{{secondproduct.details[0].d5}}</td>
+                </tr>
+                <tr>
+                    <td>{{secondproduct.details[0].d6}}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,127 @@
+[
+  {
+    "id": 13,
+    "type": "Artificial",
+    "name": "Dazzling Women Necklace",
+    "brand": "Dazzling",
+    "img": "/Artificial1.PNG",
+    "overview": "Jewelry, objects of personal adornment prized for the craftsmanship going into their creation and generally for the value of their components as well.",
+    "slogan": "Follow your true passion, let your jewelry guide you",
+    "details": [
+      {
+        "d1": "gold",
+        "d2": "13.90417",
+        "d3": "7 x 7 ly",
+        "d4": "Necklace"
+      }
+    ],
+    "price": "1099$",
+    "date": "2019",
+    "insurance": "24 months"
+  },
+  {
+    "id": 30,
+    "type": "Original",
+    "name": "Sukkhi Ring ",
+    "brand": "Sukkhi",
+    "madein": "Thailand",
+    "img": "/Original3.jpg",
+    "overview": "Jewelry, objects of personal adornment prized for the craftsmanship going into their creation and generally for the value of their components as well.",
+    "slogan": "Follow your true passion, let your jewelry guide you",
+    "details": [
+      {
+        "d1": "gold",
+        "d2": "13.90417",
+        "d3": "7 x 7 ly",
+        "d4": "Necklace"
+      }
+    ],
+    "price": "1099$",
+    "date": "2019",
+    "insurance": "24 months"
+  },
+  {
+    "id": 8,
+    "type": "Semi-Precious",
+    "name": "Sannyra ",
+    "brand": "Sannyra",
+    "madein": "Viet Nam",
+    "img": "/Semi-Precious5.jpg",
+    "overview": "Jewelry, objects of personal adornment prized for the craftsmanship going into their creation and generally for the value of their components as well.",
+    "slogan": "Follow your true passion, let your jewelry guide you",
+    "details": [
+      {
+        "d1": "gold",
+        "d2": "13.90417",
+        "d3": "7 x 7 ly",
+        "d4": "Necklace"
+      }
+    ],
+    "price": "1099$",
+    "date": "2019",
+    "insurance": "24 months"
+  },
+  {
+    "id": 23,
+    "type": "Artificial",
+    "name": "Summer Collection Sannyra",
+    "brand": "Sannyra",
+    "madein": "Viet Nam",
+    "img": "/Artificial4.PNG",
+    "overview": "Jewelry, objects of personal adornment prized for the craftsmanship going into their creation and generally for the value of their components as well.",
+    "slogan": "Follow your true passion, let your jewelry guide you",
+    "details": [
+      {
+        "d1": "gold",
+        "d2": "13.90417",
+        "d3": "7 x 7 ly",
+        "d4": "Necklace"
+      }
+    ],
+    "price": "1099$",
+    "date": "2019",
+    "insurance": "24 months"
+  },
+  {
+    "id": 31,
+    "type": "Original",
+    "name": "Best Spring Collection ",
+    "brand": "Dazzling",
+    "madein": "Viet Nam",
+    "img": "/Original2.PNG",
+    "overview": "Jewelry, objects of personal adornment prized for the craftsmanship going into their creation and generally for the value of their components as well.",
+    "slogan": "Follow your true passion, let your jewelry guide you",
+    "details": [
+      {
+        "d1": "gold",
+        "d2": "13.90417",
+        "d3": "7 x 7 ly",
+        "d4": "Necklace"
+      }
+    ],
+    "price": "1099$",
+    "date": "2019",
+    "insurance": "24 months"
+  },
+  {
+    "id": 32,
+    "type": "Original",
+    "name": "Necklace & Earings",
+    "brand": "Dazzling",
+    "madein": "Viet Nam",
+    "img": "/Original7.PNG",
+    "overview": "Jewelry, objects of personal adornment prized for the craftsmanship going into their creation and generally for the value of their components as well.",
+    "slogan": "Follow your true passion, let your jewelry guide you",
+    "details": [
+      {
+        "d1": "gold",
+        "d2": "13.90417",
+        "d3": "7 x 7 ly",
+        "d4": "Necklace"
+      }
+    ],
+    "price": "1099$",
+    "date": "2019",
+    "insurance": "24 months"
+  }
+]

@@ -1,0 +1,60 @@
+<div class="container row PRODUCTS">
+  <h1>{{product}}</h1>
+  <div class="row mb-2">
+    <div class="col-sm-4">
+      <label for="searchlabel" class="sr-only">Search</label>
+      <input
+        ng-model="search"
+        id="searchid"
+        class="form-control"
+        placeholder="Search for products"
+      />
+    </div>
+    <div class="col-sm-2">
+      <label for="productorder" class="sr-only">Filter by</label>
+      <select class="form-select" ng-model="productorder">
+        <option value="name">Name</option>
+        <option value="price">Price</option>
+      </select>
+    </div>
+    <div class="col-sm-2">
+      <label for="productorder" class="btn btn-default"
+        >Asc&nbsp;&nbsp;<input
+          type="radio"
+          name="direction"
+          class="form-check-input"
+          ng-model="direction"
+          checked
+      /></label>
+      <label for="productorder" class="btn btn-default"
+        >Desc&nbsp;&nbsp;<input
+          type="radio"
+          name="direction"
+          value="reverse"
+          class="form-check-input"
+          ng-model="direction"
+      /></label>
+    </div>
+  </div>
+
+  <a
+    href="#!/product/{{x.id}}"
+    ng-repeat="x in productslist|filter:search|orderBy:productorder:direction"
+    class="col-sm-3 img-thumbnail OVERVIEWPRODUCTS"
+  >
+    <div class="IMGPRODUCTNAME">
+      <img
+        class="container-fluid IMGPRODUCT"
+        ng-src="image/{{x.type}}{{x.img}}"
+      />
+      <p>{{x.name}}</p>
+    </div>
+    <br />
+    <ol class="DETAILSPRODUCT">
+      <li>{{x.details[0].d1}}</li>
+      <li>{{x.details[0].d2}}</li>
+      <li>{{x.details[0].d3}}</li>
+      <li>{{x.price|currency:"$ ":0}}</li>
+    </ol>
+  </a>
+</div>
